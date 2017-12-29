@@ -139,13 +139,16 @@ ul.skills {
   margin: auto;
 }
 
-/*Roxy Edits > added background img etc; commented out width, height and padding*/
+/*Roxy Edits > added background img etc; commented out height and padding; added
+position: absolute and bottom: 0*/
 footer {
-  /* width: 100%;
-  min-height: 30px;
+  width: 100%;
+  /* min-height: 30px;
   padding: 20px 0 40px 20px; */
   background: url('images/new_background.jpg') no-repeat;
   background-size: cover;
+  position:absolute;
+  bottom: 0;
   overflow: hidden;
 }
 
